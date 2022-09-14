@@ -32,7 +32,7 @@ function App() {
             onClick={() => {
               changeLayout();
             }}
-            className={`text-center text-indigo-400 font-bold rounded py-2 w-2/12 focus:outline-none bg-gray-900 border-2 border-indigo-400 m-5 `}
+            className={`text-center text-indigo-400 font-bold rounded py-2 w-auto focus:outline-none bg-gray-900 border-2 border-indigo-400 m-5 `}
           >
             Toggle Layout
           </button>
